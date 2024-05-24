@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Music Web</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa fa-music"></i>Playlist</h4>
+                <h4><span></span><i class="fa fa-music"></i>Last Listening</h4>
+                <h4><span></span><i class="fa fa-music"></i>Recommended</h4>
+            </div>
+            <h1>Top songs <i class="fa fa-music"></i></h1>
+            <div class="menu_song">
+                <li class="song_item">
+                    <span>01</span>
+                    <img src="poster/5.jpg" alt="img">
+                    <h5>Teri Yadoon Mei
+                        <div class="subtitle">
+                            K.K.
+                        </div>
+                    </h5>
+                    <i class="fa playListPlay fa-play" id="1"></i>
+                </li>
+
+                <li class="song_item">
+                    <span>02</span>
+                    <img src="poster/5.jpg" alt="img">
+                    <h5>Teri Yadoon Mei
+                        <div class="subtitle">
+                            K.K.
+                        </div>
+                    </h5>
+                    <i class="fa playListPlay fa-play" id="2"></i>
+                </li>
+
+                <li class="song_item">
+                    <span>03</span>
+                    <img src="poster/5.jpg" alt="img">
+                    <h5>Teri Yadoon Mei
+                        <div class="subtitle">
+                            K.K.
+                        </div>
+                    </h5>
+                    <i class="fa playListPlay fa-play" id="3"></i>
+                </li>
+
+                <li class="song_item">
+                    <span>04</span>
+                    <img src="poster/5.jpg" alt="img">
+                    <h5>Teri Yadoon Mei
+                        <div class="subtitle">
+                            K.K.
+                        </div>
+                    </h5>
+                    <i class="fa playListPlay fa-play" id="4"></i>
+                </li>
+
+                <li class="song_item">
+                    <span>05</span>
+                    <img src="poster/5.jpg" alt="img">
+                    <h5>Teri Yadoon Mei
+                        <div class="subtitle">
+                            K.K.
+                        </div>
+                    </h5>
+                    <i class="fa playListPlay fa-play" id="5"></i>
+                </li>
+
+                <li class="song_item">
+                    <span>06</span>
+                    <img src="poster/5.jpg" alt="img">
+                    <h5>Teri Yadoon Mei
+                        <div class="subtitle">
+                            K.K.
+                        </div>
+                    </h5>
+                    <i class="fa playListPlay fa-play" id="6"></i>
+                </li>
+            </div>
+        </div>
+
+        <div class="song_side">
+            <div class="nav">
+                <ul>
+                    <li>Discover<span></span></li>
+                    <li>My library<span></span></li>
+                    <li>Radio<span></span></li>
+                </ul>
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="search music...">
+                </div>
+            </div>
+            <div class="content">
+                <h1>K.K. (Krishnakumar Kunnath) </h1>
+                <p>The man the myth of Indian Music Industry.
+                    <br> Listen and Enjoy interuppted listening of the legend
+                </p>
+                <div class="buttons">
+                    <button>Play</button>
+                    <button>Follow</button>
+                </div>
+            </div>
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>POPULAR SONGS</h4>
+                    <div class="btn_s">
+                        <i class="fa fa-arrow-left" id="left_scroll"></i>
+                        <i class="fa fa-arrow-right" id="right_scroll"></i>
+                    </div>
+                </div>
+
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="1"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="2"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="3"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="4"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="5"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="6"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="7"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="8"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="9"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="10"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="11"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="12"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/18.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="13"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="14"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="15"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="16"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="17"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="18"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="19"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="imgPlay">
+                            <img src="poster/8.jpg" alt="img">
+                            <i class="fa playListPlay fa-play" id="20"></i>
+                        </div>
+                        <h5>Teri Yadoon Mei
+                            <div class="subtitle">
+                                K.K.
+                            </div>
+                        </h5>
+                    </li>
+                </div>
+
+            </div>
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>POPULAR ARTIST</h4>
+                    <div class="btn_s">
+                        <i class="fa fa-arrow-left" id="left_scroll"></i>
+                        <i class="fa fa-arrow-right" id="right_scroll"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="poster/8.jpg" alt="">
+                        <div class="subtitle">K.K</div>
+                    </li>
+
+                    <li>
+                        <img src="poster/14.jpg" alt="">
+                        <div class="subtitle">Tom Odell</div>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="poster/2.jpg" alt="playsong" id="master_play_poster">
+            <h5 id="title">All time low
+                <div class="subtitle">
+                    check cc
+                </div>
+            </h5>
+            <div class="icon">
+                <i class="fa fa-backward"></i>
+                <i class="fa fa-play" id="master_play"></i>
+                <i class="fa fa-forward"></i>
+            </div>
+            <span class="currentStart" id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+
+            </div>
+            <span class="currentEnd" id="currentEnd">3:37</span>
+
+            <div class="lyrics">
+                <h3> <i class="fa fa-music" ></i> Lyrics </h3>
+            </div>
+        </div>
+    </header>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
