@@ -1,3 +1,3 @@
 Live Website 
 
-https://shyam-jha.github.io/apple/
+https://shyam-jha.github.io/music-web/
